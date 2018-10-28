@@ -5,7 +5,7 @@ subtitle: ''
 date: 2018-10-28
 categories: test
 cover: '../../../assets/img/random-header.jpg'
-tags: python python模块
+tags: test
 ---
 
 NOTHING BUT A TEST!

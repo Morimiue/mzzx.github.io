@@ -35,8 +35,8 @@ comments:
   gitalk_clientID: '72958c88ad58ade11239'
   gitalk_Secret: 'a6af8b229206581df01d426e62017eee6856f07b'
   gitalk_repo: 'mzzx.github.io'
-  gitalk_owner: '名正在想'
-  gitalk_admin: '名正在想'
+  gitalk_owner: 'mzzx'
+  gitalk_admin: 'mzzx'
   distractionFreeMode: false
 
 # MathJax 公式支持 by Ray-Eldath
