@@ -1,0 +1,85 @@
+# Site settings 配置站点
+title: '名正在想的博客'
+description: '然而并没有什么描述'
+keyword: '名正在想, 石佳乐, 名正在想的博客, 石佳乐的博客'
+url: '' # your host
+
+# if you don't need baseurl, you should leave this value blank.
+baseurl: ''
+
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
+  categories: '/categories.html'
+
+# Footer
+footer:
+  since: 2018
+
+# Author 配置博主信息
+author: '石佳乐'
+nickname: '名正在想'
+bio: '然而并没有什么简介'
+avatar: '/assets/img/avatar.jpg'
+
+# Search
+search: true
+
+# Night mode
+nightMode: false
+
+# Comments 评论功能
+comments:
+  gitalk: true
+  gitalk_clientID: '72958c88ad58ade11239'
+  gitalk_Secret: 'a6af8b229206581df01d426e62017eee6856f07b'
+  gitalk_repo: 'mzzx.github.io'
+  gitalk_owner: '名正在想'
+  gitalk_admin: '名正在想'
+  distractionFreeMode: false
+
+# MathJax 公式支持 by Ray-Eldath
+mathjax: false
+
+# Share
+social-share: true
+social-share-items: ['qq', 'qzone', 'wechat', 'weibo', 'douban', 'twitter']
+
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'seaOfClouds'
+
+# SNS settings 配置社交网站
+# url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribbble, uicn, jianshu, medium, linkedin
+sns:
+  zhihu: 'https://www.zhihu.com/people/ming-zheng-zai-xiang/activities'
+  github: 'https://github.com/mzzx'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+
+# Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+# RSS
+RSS: false
+
+# Permalink
+# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
+permalink: /:categories/:year/:month/:title.html
+#permalink: /:title.html
+
+# Plugins
+plugins: [jekyll-paginate]
