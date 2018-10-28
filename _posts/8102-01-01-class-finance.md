@@ -2,13 +2,11 @@
 layout: post
 title: '哈工大(威海)1804007班财务公开'
 subtitle: ''
-date: 9999-12-31
+date: 8102-01-01
 categories: 班务
 cover: '../../../assets/img/class-finance-cover.jpg'
 tags: 班务
 ---
-
-## HITwh 1804007班财务公开
 
 | 项目 | 金额(人民币) | 经手人\* | 时间 | 备注 |
 |:---:|:---:|:---:|:---:|:---:|
