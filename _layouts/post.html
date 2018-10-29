@@ -3,12 +3,15 @@
 {% include post-head.html %}
 
 <body>
-<!--[if IE]>
+  <!--[if IE]>
 <div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
 <![endif]-->
   <input id="nm-switch" type="hidden" value="{{ site.nightMode }}"> {% include header.html %}
 
-  <header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.cover %}post-no-cover{% endunless %}" data-theme="{{ site.theme-color }}">
+  <header
+    class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.cover %}post-no-cover{% endunless %}"
+    data-theme="{{ site.theme-color }}"
+  >
     <div class="post-wrapper">
       <div class="post-tags">
         {% if page.tags.size > 0 %}
@@ -77,7 +80,7 @@
         <a href="{{ page.next.url }}" class="read-next-link"></a>
         <section>
           <span>{{ page.next.title }}</span>
-          <p>{{ page.next.excerpt | strip_html | strip_newlines | truncate: 60}}</p>
+          <p>{{ page.next.subtitle | strip_html | strip_newlines | truncate: 60}}</p>
         </section>
         {% if page.next.cover %}
         <div class="filter"></div>
@@ -91,7 +94,7 @@
         <a href="{{ page.previous.url }}" class="read-next-link"></a>
           <section>
             <span>{{ page.previous.title }}</span>
-            <p>{{ page.previous.excerpt | strip_html | strip_newlines | truncate: 60}}</p>
+            <p>{{ page.previous.subtitle | strip_html | strip_newlines | truncate: 60}}</p>
           </section>
           {% if page.previous.cover %}
           <div class="filter"></div>
