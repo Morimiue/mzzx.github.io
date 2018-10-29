@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'Hello world!'
+title: 'HELLO WORLD!'
 subtitle: ''
-date: 2018-10-28
-categories: test
+date: 2001-03-19
+categories: 其他
 cover: '../../../assets/img/hello-world-cover.jpg'
-tags: test
+tags: 其他
 ---
 
 NOTHING BUT A TEST!
