@@ -52,7 +52,7 @@ typedef struct linked_list {
 
 ```cpp
 l * head, * new_node, * tail; //声明头指针、创建新结点所用指针、尾指针
-head = (LinkList*)malloc(sizeof(LinkList)); //为头结点分配内存
+head = (l*)malloc(sizeof(l)); //为头结点分配内存
 tail = head; //让尾指针指向头指针
 ```
 
