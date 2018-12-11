@@ -30,7 +30,7 @@ tags: 计算机 C/C++
 
 在这里的例子中，为了简单，我们在每个结点只存储一个整型变量：
 
-```C++
+```cpp
 typedef struct linked_list {
     int num;
     struct linked_list* next;
@@ -50,7 +50,7 @@ typedef struct linked_list {
 -   头指针：指向头结点的指针，在访问单向链表时要从这个指针所指的结点开始
 -   尾指针：指向尾结点的指针，用于创建链表过程中的操作
 
-```C++
+```cpp
 l * head, * new_node, * tail; //声明头指针、创建新结点所用指针、尾指针
 head = (LinkList*)malloc(sizeof(LinkList)); //为头结点分配内存
 tail = head; //让尾指针指向头指针
@@ -60,7 +60,7 @@ tail = head; //让尾指针指向头指针
 
 接下来我们就可以创建中间的结点内容了！下面先以其中一个结点为例：
 
-```C++
+```cpp
 new_node = (l*)malloc(sizeof(l)); //为结点分配内存
 scanf("%d", &new_node->num); //输入数据
 tail->next = new_node; //让尾结点的指针域指向新创建的结点
@@ -71,13 +71,13 @@ tail = new_node; //让尾指针指向新的结点
 
 当然，在实际中，肯定不会只创建一个中间结点，而是用循环语句创建完所需的所有结点。在这里，我们假设所有结点创建完毕，需要进行最后一步——将尾结点的指针域指向NULL。
 
-```C
+```cpp
 end->next = NULL;
 ```
 
 ### 创建链表的整体操作
 
-```C++
+```cpp
 #include<cstdio>
 #include<cstdlib>
 
