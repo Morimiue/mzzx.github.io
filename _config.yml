@@ -27,6 +27,9 @@ avatar: '/assets/img/avatar.jpg'
 # Search
 search: true
 
+# Blogroll
+blogroll: true
+
 # Night mode
 nightMode: false
 
