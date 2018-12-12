@@ -18,10 +18,10 @@ tags: 计算机 C/C++
 //参数说明：p为头指针，n为所查找的数据
 void search_node(l* p, int n) {
     //若非尾结点，则继续循环
-    while(p->next!=NULL) {
+    while(p->next != NULL) {
         //将指针指向下一个结点
         p = p->next;
-        if(p->num==n) {
+        if(p->num == n) {
             printf("找到该数据！");
             return;
         }
@@ -55,15 +55,15 @@ p->next = p_new;
 //参数说明：p为头指针，n为所查找的数据
 void insert_node(l* p, int n) {
     l* p_new;
-    while(p->next!=NULL) {
+    while(p->next != NULL) {
         p = p->next;
-        if(p->num==n) {
+        if(p->num == n) {
             //找到数据后，为新结点分配空间并输入要插入的数据
             printf("请输入要插入的数据：");
             p_new = (l*)malloc(sizeof(l));
             scanf("%d", &p_new->num);
             //若为尾结点，通过如下操作插入
-            if(p->next==NULL) {
+            if(p->next == NULL) {
                 p_new->next = NULL;
                 p->next = p_new;
             }
@@ -133,7 +133,7 @@ l* create(int n) {
     int i = 0;
     head = (l*)malloc(sizeof(l));
     tail = head;
-    for(i=0; i<n; ++i) {
+    for(i = 0; i < n; ++i) {
         new_node = (l*)malloc(sizeof(l));
         scanf("%d", &new_node->num);
         tail->next = new_node;
@@ -144,9 +144,9 @@ l* create(int n) {
 }
 
 void search_node(l* p, int n) {
-    while(p->next!=NULL) {
+    while(p->next != NULL) {
         p = p->next;
-        if(p->num==n) {
+        if(p->num == n) {
             printf("找到该数据！");
             return;
         }
@@ -157,21 +157,21 @@ void search_node(l* p, int n) {
 
 void insert_node(l* p, int n) {
     l* p_new;
-    while(p->next!=NULL) {
+    while(p->next != NULL) {
         p = p->next;
-        if(p->num==n) {
+        if(p->num == n) {
             printf("请输入要插入的数据：");
             p_new = (l*)malloc(sizeof(l));
             scanf("%d", &p_new->num);
-            if(p->next==NULL) {
+            if(p->next == NULL) {
                 p_new->next = NULL;
                 p->next = p_new;
             } else {
                 p_new->next = p->next;
                 p->next = p_new;
             }
-        printf("插入成功！");
-        return;
+            printf("插入成功！");
+            return;
         }
     }
     printf("未找到该数据！");
