@@ -4,7 +4,7 @@ title: 'HELLO WORLD!'
 subtitle: ''
 date: 2001-03-19
 categories: 其他
-cover: '../assets/img/hello-world-cover.jpg'
+cover: '../../../assets/img/hello-world-cover.jpg'
 tags: 其他
 ---
 

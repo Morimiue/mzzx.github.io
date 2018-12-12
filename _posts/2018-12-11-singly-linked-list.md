@@ -4,7 +4,7 @@ title: '实现你的第一个链表'
 subtitle: '手把手教你创建单向链表'
 date: 2018-12-11
 categories: 计算机
-cover: '../assets/img/singly-linked-list.jpg'
+cover: '../../../assets/img/singly-linked-list.jpg'
 tags: 计算机 C/C++
 ---
 

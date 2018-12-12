@@ -4,7 +4,7 @@ title: '哈工大(威海)1804007班财务公开'
 subtitle: '（持续更新）'
 date: 8102-01-01
 categories: 班务
-cover: '../assets/img/class-finance-cover.jpg'
+cover: '../../../assets/img/class-finance-cover.jpg'
 tags: 班务
 ---
 
