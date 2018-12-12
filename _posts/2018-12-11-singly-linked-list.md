@@ -4,7 +4,7 @@ title: '实现你的第一个链表'
 subtitle: '手把手教你创建单向链表'
 date: 2018-12-11
 categories: 计算机
-cover: '../../../assets/img/singly-linked-list.jpg'
+cover: '../../../assets/img/singly-linked-list-cover.jpg'
 tags: 计算机 C/C++
 ---
 
@@ -113,9 +113,9 @@ l* create(int n) {
 int main() {
     l* head_pointer;
     int n;
-    printf("请输入数据个数：")
+    printf("请输入数据个数：");
     scanf("%d", &n);
-    printf("请依次输入数据：")
+    printf("请依次输入数据：");
     head_pointer = create(n);
     /*
     下面可以进行链表操作，本文暂不演示
