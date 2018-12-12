@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '再谈链表操作'
+title: '再谈单向链表操作'
 subtitle: '单向链表的访问与修改'
 date: 2018-12-12
 categories: 计算机
