@@ -149,13 +149,8 @@ void insert_node(l* p, int n) {
             printf("请输入要插入的数据：");
             p_new = (l*)malloc(sizeof(l));
             scanf("%d", &p_new->num);
-            if(p->next == NULL) {
-                p_new->next = NULL;
-                p->next = p_new;
-            } else {
-                p_new->next = p->next;
-                p->next = p_new;
-            }
+            p_new->next = p->next;
+            p->next = p_new;
             printf("插入成功！");
             return;
         }
