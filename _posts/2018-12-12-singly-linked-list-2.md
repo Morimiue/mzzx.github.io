@@ -42,13 +42,6 @@ p_new->next = p->next;
 p->next = p_new;
 ```
 
-特别注意，如果结点N为尾结点，那么新结点M的指针域需要指向NULL，操作如下：
-
-```cpp
-p_new->next = NULL;
-p->next = p_new;
-```
-
 下面我们设计一个函数，查找某数据并将新数据插入其后：
 
 ```cpp
@@ -62,16 +55,9 @@ void insert_node(l* p, int n) {
             printf("请输入要插入的数据：");
             p_new = (l*)malloc(sizeof(l));
             scanf("%d", &p_new->num);
-            //若为尾结点，通过如下操作插入
-            if(p->next == NULL) {
-                p_new->next = NULL;
-                p->next = p_new;
-            }
-            //若非尾结点，通过如下操作插入
-            else {
-                p_new->next = p->next;
-                p->next = p_new;
-            }
+            //插入新结点
+            p_new->next = p->next;
+            p->next = p_new;
         printf("插入成功！");
         return;
         }
