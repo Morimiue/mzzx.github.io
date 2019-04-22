@@ -4,7 +4,7 @@ title: '巴黎圣母院大火背后：资本主义正在毁灭人类的瑰宝'
 subtitle: ''
 date: 2019-04-22
 categories: 评论
-cover: '../../../assets/img/notre-dame-fire.jpg'
+cover: '../../../assets/img/notre-dame-fire-cover.jpg'
 tags: 评论
 ---
 

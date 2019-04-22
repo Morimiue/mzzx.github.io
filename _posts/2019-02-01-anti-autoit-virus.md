@@ -4,7 +4,7 @@ title: '对一只AutoIt木马的分析及相应防病毒措施'
 subtitle: '一篇迟来两年多的博文'
 date: 2019-02-01
 categories: 计算机
-cover: '../../../assets/img/anti-autoit-virus.jpg'
+cover: '../../../assets/img/anti-autoit-virus-cover.jpg'
 tags: 计算机
 ---
 
