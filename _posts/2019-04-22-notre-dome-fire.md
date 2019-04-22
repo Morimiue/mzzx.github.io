@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '巴黎圣母院大火背后：资本主义正在毁灭人类的瑰宝'
+title: '巴黎圣母院大火：资本主义正在毁灭人类的瑰宝'
 subtitle: ''
 date: 2019-04-22
 categories: 评论
