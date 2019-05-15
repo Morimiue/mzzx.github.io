@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '配置MikTex+VSCode论文写作环境'
-subtitle: ''
+subtitle: '开启愉(tong)快(ku)的论文写作之旅'
 date: 2019-05-14
 categories: ComputerScience
 cover: '../../../assets/img/miktex-vscode-cover.jpg'
@@ -102,4 +102,4 @@ tags: 计算机 LaTex
 \end{document}
 ```
 
-![编译结果](../../../assets/img/miktex-vscode-1.jpg)
+![编译结果](../../../assets/img/miktex-vscode-1.png)
