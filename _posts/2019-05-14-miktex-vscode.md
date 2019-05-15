@@ -102,4 +102,4 @@ tags: 计算机 LaTex
 \end{document}
 ```
 
-![编译结果]('../../../assets/img/miktex-vscode-1.png')
+![编译结果](../../../assets/img/miktex-vscode-1.jpg)
