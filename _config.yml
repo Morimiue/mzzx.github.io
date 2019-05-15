@@ -46,7 +46,7 @@ comments:
 # MathJax
 mathjax: true
 
-# theme color
+# Theme color
 theme-color: 'default'  # pink or default
 
 # Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
