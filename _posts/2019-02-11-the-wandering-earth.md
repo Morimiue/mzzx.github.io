@@ -3,7 +3,7 @@ layout: post
 title: '《流浪地球》：一部有温度的科幻大片'
 subtitle: '可能是一篇影评'
 date: 2019-02-11
-categories: 评论
+categories: Comments
 cover: '../../../assets/img/the-wandering-earth-cover.jpg'
 tags: 评论 影评
 ---

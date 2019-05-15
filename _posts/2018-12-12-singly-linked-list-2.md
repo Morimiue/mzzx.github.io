@@ -3,7 +3,7 @@ layout: post
 title: '再谈单向链表操作'
 subtitle: '单向链表的访问与修改'
 date: 2018-12-12
-categories: 计算机
+categories: ComputerScience
 cover: '../../../assets/img/singly-linked-list-2-cover.jpg'
 tags: 计算机 C/C++
 ---

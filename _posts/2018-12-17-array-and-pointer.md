@@ -3,7 +3,7 @@ layout: post
 title: '二维数组、二维指针及其作为参数的深入理解'
 subtitle: ''
 date: 2018-12-17
-categories: 计算机
+categories: ComputerScience
 cover: '../../../assets/img/array-and-pointer-cover.jpg'
 tags: 计算机 C/C++
 ---

@@ -3,7 +3,7 @@ layout: post
 title: '配置MikTex+VSCode论文写作环境'
 subtitle: ''
 date: 2019-05-14
-categories: 计算机
+categories: ComputerScience
 cover: '../../../assets/img/miktex-vscode-cover.jpg'
 tags: 计算机 LaTex
 ---

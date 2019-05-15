@@ -671,7 +671,7 @@ a {
     color: #83888F;
 }
 
-.post-header, .markdown-body, .post-wrapper, .author-detail, .social-share-wrapper {
+.post-header, .markdown-body, .post-wrapper, .author-detail {
     margin: 0 auto;
 }
 
@@ -882,17 +882,6 @@ a {
 
 .markdown-body ul li p:first-child, .markdown-body ol li p:first-child {
     margin-bottom: 0;
-}
-
-.social-share-wrapper {
-    float: left;
-    position: relative;
-    left: 50%;
-}
-
-.social-share-wrapper .social-share {
-    position: relative;
-    left: -50%;
 }
 
 .post-footer-item {

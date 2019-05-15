@@ -394,7 +394,7 @@
     }
 }
 
-.post-header, .markdown-body, .post-wrapper, .author-detail, .social-share-wrapper {
+.post-header, .markdown-body, .post-wrapper, .author-detail {
     margin: 0 auto;
 }
 .post-wrapper {
@@ -561,16 +561,6 @@
                 }
             }
         }
-    }
-}
-
-.social-share-wrapper {
-    float: left;
-    position: relative;
-    left: 50%;
-    .social-share {
-        position: relative;
-        left: -50%;
     }
 }
 
