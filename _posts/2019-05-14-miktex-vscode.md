@@ -4,13 +4,13 @@ title: '配置MikTex+VSCode论文写作环境'
 subtitle: '开启愉(tong)快(ku)的论文写作之旅'
 date: 2019-05-14
 categories: ComputerScience
-cover: '../../../assets/img/miktex-vscode-cover.jpg'
+cover: ''
 tags: 计算机 LaTex
 ---
 
-## 前言
+## 引言
 
-什么是 LaTeX？简单地说，LaTeX 是全太阳系最好的公式排版工具，也是论文写作必不可少的利器。要注意的是，LaTeX 中的 X 是清软颚擦音，国际音标为 /x/ ，与汉语“喝”中的 h 或德语 Buch 中的 ch 读音相同。因此，LaTeX 可以音译为“拉泰赫”。
+什么是 LaTeX？简单地说，LaTeX 是全太阳系最好的公式排版工具，也是论文写作必不可少的利器。要注意的是，LaTeX 中的 X 的读音与汉语“喝”中的 h 或德语 Buch 中的 ch 相同，专业地说是清软颚擦音，国际音标为 /x/ 。因此，LaTeX 可以音译为“拉泰赫”。
 
 然而不得不说，LaTeX 使用起来并不简单，连配置工作也使人颇为头痛。我选择了小巧的 MikTex 作为 LaTeX 套件、强大的 VSCode 作为编辑器，由于没有找到很好的中文资料，翻遍文档才最终配置完美。
 
@@ -30,7 +30,7 @@ tags: 计算机 LaTex
 
 进入 VSCode 的设置界面，搜索“latex”，点击出现的“Edit in settings.json”，进入配置文件。
 
-上面已经说过，修改配置的关键在于编译方案，将以下内容加入配置文件中：
+上面已经说过，修改配置的关键在于编译方案。将以下内容加入配置文件中：
 
 ```json
     // 编译方案，这里定义了两个方案
@@ -88,6 +88,8 @@ tags: 计算机 LaTex
     "latex-workshop.latex.recipe.default": "lastUsed",
 ```
 
+## 小试牛刀
+
 现在，配置工作就大功告成了！新建 LaTeX 文件输入以下内容测试一下：
 
 ```latex
@@ -102,4 +104,6 @@ tags: 计算机 LaTex
 \end{document}
 ```
 
-![编译结果](../../../assets/img/miktex-vscode-1.png)
+由于 pdflatex 默认不支持 Unicode 编码，而需要相应的宏包，在编译过程中根据提示自动下载即可。接着，编译就完成了：
+
+![1-编译结果](../../../assets/img/miktex-vscode-1.png)
