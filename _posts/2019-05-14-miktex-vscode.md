@@ -1,12 +1,15 @@
 ---
 layout: post
-title: '配置MikTex+VSCode论文写作环境'
-subtitle: '开启愉(tong)快(ku)的论文写作之旅'
-date: 2019-05-14
-categories: ComputerScience
-cover: ''
-tags: 计算机 LaTex
+title: 配置MikTex+VSCode论文写作环境
+subtitle: 开启愉(tong)快(ku)的论文写作之旅
+date: 2019-05-14 +0800
+categories: 计算机
+tag: LaTeX
 ---
+
+* content
+{:toc}
+
 
 ## 引言
 
@@ -106,4 +109,5 @@ tags: 计算机 LaTex
 
 由于 pdflatex 默认不支持 Unicode 编码，而需要相应的宏包，在编译过程中根据提示自动下载即可。接着，编译就完成了：
 
-![1-编译结果](../../../assets/img/miktex-vscode-1.png)
+
+![01-编译结果]({{ '/styles/images/miktex-vscode-01.png' | prepend: site.baseurl  }})

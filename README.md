@@ -1,2 +1,1 @@
-# mzzx.github.io
-Blog
+# [名正在想的博客](https://mzzx.github.io)

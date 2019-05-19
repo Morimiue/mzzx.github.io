@@ -1,12 +1,15 @@
 ---
 layout: post
-title: '实现你的第一个链表'
-subtitle: '手把手教你创建单向链表'
-date: 2018-12-11
-categories: ComputerScience
-cover: '../../../assets/img/singly-linked-list-cover.jpg'
-tags: 计算机 C/C++
+title: 实现你的第一个链表
+subtitle: 手把手教你创建单向链表
+date: 2018-12-11 +0800
+categories: 计算机
+tag: C/C++
 ---
+
+* content
+{:toc}
+
 
 ## 写在前面
 
@@ -128,4 +131,4 @@ int main() {
 
 ## 总结
 
-本文一步步介绍了创建一个链表的方法，由于我写了半天，现在有点犯懒了，欲知链表的访问、修改等操作，且听[下回分解](https://mzzx.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA/2018/12/singly-linked-list-2.html)……
+本文一步步介绍了创建一个链表的方法，由于我写了半天，现在有点犯懒了，欲知链表的访问、修改等操作，且听[下回分解](https://mzzx.github.io/2018/12/singly-linked-list-2.html)……

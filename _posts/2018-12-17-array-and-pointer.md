@@ -1,12 +1,14 @@
 ---
 layout: post
-title: '二维数组、二维指针及其作为参数的深入理解'
-subtitle: ''
-date: 2018-12-17
-categories: ComputerScience
-cover: ''
-tags: 计算机 C/C++
+title: 二维数组、二维指针及其作为参数的深入理解
+date: 2018-12-17 +0800
+categories: 计算机
+tag: C/C++
 ---
+
+* content
+{:toc}
+
 
 ## 引言
 

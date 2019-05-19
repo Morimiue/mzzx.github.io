@@ -1,12 +1,14 @@
 ---
 layout: post
-title: '巴黎圣母院大火：资本主义正在毁灭人类的瑰宝'
-subtitle: ''
-date: 2019-04-22
-categories: Comments
-cover: '../../../assets/img/notre-dame-fire-cover.jpg'
-tags: 评论
+title: 巴黎圣母院大火：资本主义正在毁灭人类的瑰宝
+date: 2019-04-22 +0800
+categories: 评论
+tag: 时评
 ---
+
+* content
+{:toc}
+
 
 无论火灾损失几何，对任何珍视文化的人来说，本月 15 日的巴黎圣母院大火无疑是一场悲剧。而悲剧前后的事表明，对于人类文化遗产的保护，短视而虚伪的资本主义难担重任。
 

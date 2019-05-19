@@ -1,86 +1,24 @@
-# Site settings
-title: '名正在想的博客'
-description: '一个奇奇怪怪的地方'
-keyword: '名正在想, 名正在想的博客'
-url: 'https://mzzx.github.io' # your host
+name: 名正在想的博客
+email: mingzzx@outlook.com
+author: 名正在想
+url: https://mzzx.github.io
+github: https://github.com/mzzx/
+baseurl: ""
+description: 一个杂物堆
+meta_description: 名正在想
+motto: 名正在想的博客
+#banner: 学而不思则罔，思而不学则殆。
 
-# if you don't need baseurl, you should leave this value blank.
-baseurl: ''
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 
-# Navigation links
-nav:
-  home: '/'
-  about: '/about.html'
-  tags: '/tags.html'
-  categories: '/categories.html'
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-# Footer
-footer:
-  since: 2018
+github_username: mzzx
 
-# Author
-author: '名正在想'
-nickname: '名正在想'
-bio: '一个好人'
-avatar: '/assets/img/avatar.jpg'
+markdown: kramdown
 
-# Search
-search: true
-
-# Blogroll
-blogroll: true
-
-# Night mode
-nightMode: false
-
-# Comments
-comments:
-  gitalk: true
-  gitalk_clientID: '72958c88ad58ade11239'
-  gitalk_Secret: 'a6af8b229206581df01d426e62017eee6856f07b'
-  gitalk_repo: 'mzzx.github.io'
-  gitalk_owner: 'mzzx'
-  gitalk_admin: 'mzzx'
-  distractionFreeMode: false
-
-# MathJax
 mathjax: true
 
-# Theme color
-theme-color: 'default'  # pink or default
+baidu_analysis: eb322c5a3418970c3173a0e60f05de91
 
-# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
-postPatterns: 'seaOfClouds'
-
-# SNS settings
-# url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribbble, uicn, jianshu, medium, linkedin
-sns:
-  zhihu: 'https://www.zhihu.com/people/ming-zheng-zai-xiang/activities'
-  github: 'https://github.com/mzzx'
-  linkedin: 'https://www.linkedin.com/in/%E4%BD%B3%E4%B9%90-%E7%9F%B3-3a2957182/'
-
-# Tags
-recommend-tags: true # whether or not display recommend-tags on the sidebar
-recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
-
-# Build settings
-paginate: 6
-paginate_path: 'page:num'
-exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
-
-# Markdown
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-
-# RSS
-RSS: false
-
-# Permalink
-# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
-permalink: /:categories/:year/:month/:title.html
-#permalink: /:title.html
-
-# Plugins
-plugins: [jekyll-paginate]

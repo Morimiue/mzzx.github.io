@@ -1,12 +1,15 @@
 ---
 layout: post
-title: '再谈单向链表操作'
-subtitle: '单向链表的访问与修改'
-date: 2018-12-12
-categories: ComputerScience
-cover: '../../../assets/img/singly-linked-list-2-cover.jpg'
-tags: 计算机 C/C++
+title: 再谈单向链表操作
+subtitle: 单向链表的访问与修改
+date: 2018-12-12 +0800
+categories: 计算机
+tag: C/C++
 ---
+
+* content
+{:toc}
+
 
 ## 链表的访问
 
