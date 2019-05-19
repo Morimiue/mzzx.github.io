@@ -1,12 +1,12 @@
-name: 名正在想的博客
-email: mingzzx@outlook.com
-author: 名正在想
-url: https://mzzx.github.io
-github: https://github.com/mzzx/
-baseurl: ""
-description: 一个杂物堆
-meta_description: 名正在想
-motto: 名正在想的博客
+name: '名正在想的博客'
+email: 'mingzzx@outlook.com'
+author: '名正在想'
+url: 'https://mzzx.github.io'
+github: 'https://github.com/mzzx/'
+baseurl: ''
+description: '一个杂物堆'
+meta_description: '名正在想'
+motto: '名正在想的博客'
 #banner: 学而不思则罔，思而不学则殆。
 
 #permalink: /:categories/:year/:month/:day/:title/
@@ -21,4 +21,3 @@ markdown: kramdown
 mathjax: true
 
 baidu_analysis: eb322c5a3418970c3173a0e60f05de91
-
