@@ -1,1 +1,1 @@
-# [名正在想的博客](https://mzzx.github.io)
+# [名正在想的博客](https://mingzzx.com/)
