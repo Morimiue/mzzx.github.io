@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于我
+title: 关于我和我的博客
 permalink: /about/
 ---
 
