@@ -1,7 +1,5 @@
-node_modules/
+.jekyll-cache/
 .sass-cache/
-_site/
 .vscode/
-Thumbs.db
-*/Thumbs.db
-*/*/Thumbs.db
+_site/
+node_modules/
